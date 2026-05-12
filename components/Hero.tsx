@@ -41,9 +41,9 @@ export default function Hero() {
           <motion.h1
             {...fadeUp(0.2)}
             className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-[1.1] tracking-tight text-slate-900"
-            style={{ fontFamily: "var(--font-syne)" }}
+            style={{ fontFamily: "var(--font-dm-sans)" }}
           >
-            Fast, Reliable Repairs —{" "}
+            Fast, Reliable Repairs{" "}
             <span className="text-[#2563EB] relative inline-block">
               Right at Your Doorstep
               <svg
@@ -174,7 +174,7 @@ export default function Hero() {
                 <span className="text-[10px] font-bold text-[#2563EB]" style={{ fontFamily: "var(--font-dm-sans)" }}>~25 min</span>
               </div>
               <div className="mt-1.5 flex gap-0.5">
-                {[1,2,3,4,5].map((s) => (
+                {[1, 2, 3, 4, 5].map((s) => (
                   <Star key={s} size={9} className="fill-amber-400 text-amber-400" />
                 ))}
                 <span className="text-[9px] text-slate-500 ml-1" style={{ fontFamily: "var(--font-dm-sans)" }}>4.9</span>
